@@ -31,7 +31,7 @@ public class FilterUtil {
 			BufferedReader reader = new BufferedReader(new FileReader(fileName));
 			ArffReader arff = new ArffReader(reader);
 			Instances instances = arff.getData();
-			System.out.println("===== Loaded dataset: " + fileName + " =====");
+//			System.out.println("===== Loaded dataset: " + fileName + " =====");
 			reader.close();
 			return instances;
 		}
@@ -48,7 +48,7 @@ public class FilterUtil {
 		// outputInstances = inputInstances;
 		try {
 
-			// Set the tokenizer
+			// Set the tokenizer -> split the article into individual word
 			NGramTokenizer tokenizer = new NGramTokenizer();
 			tokenizer.setNGramMinSize(1);
 			tokenizer.setNGramMaxSize(1);
