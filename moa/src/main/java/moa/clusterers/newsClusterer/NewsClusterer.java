@@ -48,8 +48,8 @@ public class NewsClusterer {
     static Instances[] subTopicNovelties = new Instances[NUM_GLOBAL_CLUSTERS];
     //to store the cluster radius at top level
     static double[] maxDistance;
-    //to store cluster radius at sub topic level
-    static double[][] subClusterDistances = new double[NUM_GLOBAL_CLUSTERS][2]; // Number of local clusters
+    //to store cluster radius at sub topic level with 2 local clusters
+    static double[][] subClusterDistances = new double[NUM_GLOBAL_CLUSTERS][2];
     //to store centroids retrived at top level
     static Instances centroids;
     //To store centroids of sub topic clusterers

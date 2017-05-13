@@ -1,0 +1,79 @@
+Changing topLevelFeatureSpaceSize from 10 to 75 with step of 5
+topLevelFeatureSpaceSize, numTopRecluster, numSubRecluster
+10 , 6 , 11
+15 , 11 , 23
+20 , 16 , 33
+25 , 23 , 45
+30 , 32 , 54
+35 , 40 , 65
+40 , 47 , 70
+45 , 56 , 76
+50 , 64 , 83
+55 , 71 , 89
+60 , 78 , 99
+65 , 85 , 108
+70 , 92 , 117
+75 , 97 , 133
+--------------------------------------------------
+--------------------------------------------------
+Changing subClusteringBinSize from 10 to 30 with step of 2
+subClusteringBinSize, numTopRecluster, numSubRecluster
+50 , 105 , 135
+50 , 113 , 139
+50 , 121 , 144
+50 , 129 , 151
+50 , 137 , 158
+50 , 145 , 164
+50 , 153 , 171
+50 , 161 , 179
+50 , 169 , 187
+50 , 177 , 194
+50 , 185 , 199
+--------------------------------------------------
+--------------------------------------------------
+Changing topNoveltySize from 80 to 120 with step of 5
+topNoveltySize, numTopRecluster, numSubRecluster
+50 , 195 , 210
+50 , 202 , 220
+50 , 210 , 226
+50 , 218 , 232
+50 , 226 , 238
+50 , 232 , 245
+50 , 238 , 252
+50 , 244 , 266
+50 , 251 , 272
+--------------------------------------------------
+--------------------------------------------------
+Changing subNoveltySize from 10 to 30 with step of 2
+subNoveltySize, numTopRecluster, numSubRecluster
+50 , 259 , 278
+50 , 267 , 285
+50 , 275 , 292
+50 , 283 , 299
+50 , 291 , 306
+50 , 299 , 313
+50 , 307 , 320
+50 , 315 , 327
+50 , 323 , 334
+--------------------------------------------------
+--------------------------------------------------
+Changing topNoveltyThreshold from 0.5 to 1.0 with step of 0.1
+topNoveltyThreshold, numTopRecluster, numSubRecluster
+50 , 344 , 336
+50 , 363 , 340
+50 , 378 , 343
+50 , 386 , 349
+50 , 388 , 369
+50 , 389 , 391
+--------------------------------------------------
+--------------------------------------------------
+Changing subNoveltyThreshold from 0.5 to 1.0 with step of 0.1
+subNoveltyThreshold, numTopRecluster, numSubRecluster
+50 , 397 , 458
+50 , 405 , 518
+50 , 413 , 554
+50 , 421 , 560
+50 , 429 , 560
+50 , 437 , 560
+--------------------------------------------------
+--------------------------------------------------

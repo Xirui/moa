@@ -57,8 +57,9 @@ public class Main {
     }
 
     public static void printSeparator() {
+        System.out.println("\n");
         System.out.println("--------------------------------------------------");
-        System.out.println("--------------------------------------------------");
+        System.out.println("\n");
     }
 
     public static void testSubNoveltyThreshold(String fileName) {
@@ -114,7 +115,7 @@ public class Main {
     public static void testSubClusteringBinSize(String fileName) {
         System.out.println("Changing subClusteringBinSize from " + minBinSize + " to " + maxBinSize + " with step of " + stepSub);
         System.out.println("subClusteringBinSize, numTopRecluster, numSubRecluster");
-        for (int size = maxBinSize; size <= maxBinSize; size += stepSub) {
+        for (int size = minBinSize; size <= maxBinSize; size += stepSub) {
             NewsClusterer.subClusteringBinSize = size;
             NewsClusterer.run(fileName);
         }
