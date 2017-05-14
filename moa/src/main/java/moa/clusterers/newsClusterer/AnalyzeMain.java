@@ -1,7 +1,7 @@
 package moa.clusterers.newsClusterer;
 
 
-public class Main {
+public class AnalyzeMain {
 
     static int defaultTopLevelFeatureSpaceSize = 50;
     static int maxTopSize = 75;
